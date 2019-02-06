@@ -1,0 +1,6 @@
+ConnectFour ~ Batuhan TOPALOÐLU
+
+Oyunu baþlattýðýmýzda ilk olarak bize oyun tipini soruyor eðer bilgisayara karþý oynamak istiyorsak single player'ý iki kiþi karþýlýklý oynamak istiyorsak multi player'ý seçiyoruz.
+Daha sonra bize board'ýn size'ýný soruyor bu size board'ýn bir kenar uzunluðu temsil ediyor yani 5 girerseniz karþýnýzda 5*5 lik bir board görüceksiniz. Oyununun baþlamasý için gereken parametreler alýndýðý için oyun baþlayacaktýr.Temel hedef her oyuncunun kendine ait 4 taþý iliþkili þekilde yanyana getirmesin yani yatay , dikey veya çapraz olarak getirebilirsiniz bunu baþaran kullanýcý oyunu kazanýr.Bir taþý istediðimiz sütuna atmak için ise o sütunu üzerindeki ok'a týklamanýz yeterli olucaktýr.Dolan sütunlara atama yapmanýz engellenmiþtir.En alt satýrda kullanýcý 1 ve kullanýcý 2(bilgisayar) yi temsil eden taþlar gösterilmektedir ve sýra hangi kullanýcýda ise onu temsil eden yazý büyümekte ve kýrmýzý renge geçmektedir.
+
+*Boyutlar aþýrý büyüyünce ekrana sýðma sýkýntýsý olduðu için ve daha önemlisi, buton array'i yaptýktan sonra hepsine görev tanýmlarken iþlevleri farklý olduðu için bir loop içerisinde veya kolay yolla iþlev atamayý çözemediðim için þimdilik maxSize'ý 10 olarak sýnýrladým.
